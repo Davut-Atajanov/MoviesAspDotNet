@@ -1,0 +1,15 @@
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\bin\Debug\net8.0\Business.deps.json
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\bin\Debug\net8.0\Business.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\bin\Debug\net8.0\Business.pdb
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\bin\Debug\net8.0\DataAccess.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\bin\Debug\net8.0\DataAccess.pdb
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.csproj.CopyComplete
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\refint\Business.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.pdb
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\ref\Business.dll
