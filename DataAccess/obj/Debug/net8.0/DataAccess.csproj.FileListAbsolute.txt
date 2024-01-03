@@ -12,3 +12,4 @@ F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\DataAccess\obj\Deb
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json

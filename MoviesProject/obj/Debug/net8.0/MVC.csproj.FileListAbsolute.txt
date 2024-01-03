@@ -269,3 +269,4 @@ F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\MoviesProject\bin\
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\MoviesProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\MoviesProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\MoviesProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\MoviesProject\obj\Debug\net8.0\MVC.sourcelink.json

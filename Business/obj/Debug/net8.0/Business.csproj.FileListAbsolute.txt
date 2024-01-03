@@ -13,3 +13,4 @@ F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\refint\Business.dll
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.pdb
 F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\ref\Business.dll
+F:\Projects\Given Tasks-Projects\dot net\movies\MoviesProject\Business\obj\Debug\net8.0\Business.sourcelink.json
