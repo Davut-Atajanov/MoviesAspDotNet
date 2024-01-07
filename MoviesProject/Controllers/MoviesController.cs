@@ -1,6 +1,7 @@
 #nullable disable
 using Business.Models;
 using Business.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -26,6 +27,7 @@ namespace MVC.Controllers
             return View(movieList);
         }
 
+        [Authorize]
         // GET: Movies/Details/5
         public IActionResult Details(int id)
         {
@@ -37,6 +39,7 @@ namespace MVC.Controllers
             return View(movie);
         }
 
+        [Authorize]
         // GET: Movies/Create
         public IActionResult Create()
         {
@@ -45,6 +48,7 @@ namespace MVC.Controllers
         }
 
         // POST: Movies/Create
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(MovieModel movie)
@@ -65,6 +69,7 @@ namespace MVC.Controllers
         }
 
         // GET: Movies/Edit/5
+        [Authorize]
         public IActionResult Edit(int id)
         {
             MovieModel movie = _movieService.Query().SingleOrDefault(m => m.Id == id);
@@ -79,6 +84,7 @@ namespace MVC.Controllers
         // POST: Movies/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult Edit(MovieModel movie)
         {
             if (ModelState.IsValid)
@@ -96,6 +102,7 @@ namespace MVC.Controllers
         }
 
         // GET: Movies/Delete/5
+        [Authorize]
         public IActionResult Delete(int id)
         {
             MovieModel movie = _movieService.Query().SingleOrDefault(m => m.Id == id);
@@ -109,6 +116,7 @@ namespace MVC.Controllers
         // POST: Movies/Delete
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult DeleteConfirmed(int id)
         {
             _movieService.Delete(id);

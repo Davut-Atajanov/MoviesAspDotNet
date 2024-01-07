@@ -10,6 +10,7 @@ using DataAccess.Contexts;
 using DataAccess.Entities;
 using Business.Services;
 using Business.Models;
+using Microsoft.AspNetCore.Authorization;
 
 //Generated from Custom Template.
 namespace MVC.Controllers
@@ -32,6 +33,7 @@ namespace MVC.Controllers
         }
 
         // GET: Directors/Details/5
+        [Authorize]
         public IActionResult Details(int id)
         {
             DirectorModel director = _directorService.Query().SingleOrDefault(m => m.Id == id);
@@ -43,6 +45,7 @@ namespace MVC.Controllers
         }
 
         // GET: Directors/Create
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["DirectorId"] = new SelectList(_directorService.Query().ToList(), "Id", "Name");
@@ -52,6 +55,7 @@ namespace MVC.Controllers
         // POST: Directors/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult Create(DirectorModel director)
         {
             if (ModelState.IsValid)
@@ -69,6 +73,7 @@ namespace MVC.Controllers
         }
 
         // GET: Directors/Edit/5
+        [Authorize]
         public IActionResult Edit(int id)
         {
             DirectorModel director = _directorService.Query().SingleOrDefault(m => m.Id == id);
@@ -85,6 +90,7 @@ namespace MVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult Edit(DirectorModel director)
         {
             if (ModelState.IsValid)
@@ -102,6 +108,7 @@ namespace MVC.Controllers
         }
 
         // GET: Directors/Delete/5
+        [Authorize]
         public IActionResult Delete(int id)
         {
             bool result = _directorService.Delete(id);
@@ -116,6 +123,7 @@ namespace MVC.Controllers
         // POST: Directors/Delete
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public IActionResult DeleteConfirmed(int id)
         {
             _directorService.Delete(id);
